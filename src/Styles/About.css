@@ -1,0 +1,8 @@
+body {
+  background-image: url('../Images/paw_prints_trail_across_screen.jpg'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta real de tu imagen */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white; /* Color del texto en la página */
+
+}

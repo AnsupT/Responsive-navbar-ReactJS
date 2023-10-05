@@ -1,0 +1,20 @@
+.main-footer {
+  background-color: rgb(32, 31, 31); /* Cambia el fondo a negro */
+  color: white;
+  padding-top: 3em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1; /* Esto permite que el contenido se expanda para llenar el espacio restante */
+  /* Estilos adicionales para el contenido si es necesario */
+}
+
+/* Estilos para el Footer */
