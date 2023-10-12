@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from "./Pages/Home";
 import Buscar from "./Pages/Buscar"; 
 import Certificado from "./Pages/Certificado"; 
+import Categoria from "./Pages/Categoria"; 
 import About from "./Pages/About";  
 import Footer from "./Components/Footer";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="Buscar" element={<Buscar />} />
+          <Route path="Categoria" element={<Categoria />} />
           <Route path="Certificado" element={<Certificado />} />
           <Route path="*" element={<Home />} />
         </Routes>
